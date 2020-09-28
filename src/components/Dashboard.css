@@ -1,0 +1,47 @@
+.dashboard {
+  margin-top: 60px;
+  margin-left: 65px;
+  min-width: 500px;
+}
+.dashboard > h4,
+.dashboard > p {
+  margin: 10px;
+}
+.dashboard > p {
+  font-weight: 500;
+}
+.dashboard__list {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background: gray;
+}
+.dashboard__card {
+  width: 400px;
+
+  height: 200px;
+  border: 1px solid #042331;
+  margin: 10px;
+  background: #eee;
+  text-align: center;
+}
+.dashboard__cardUp {
+  margin: 10px;
+  padding: 10px;
+}
+.dashboard__cardUp:hover {
+  color: gray;
+}
+.dashboard__cardDown {
+  color: #042331;
+}
+.dashboard__count {
+  font-size: larger;
+  font-weight: 600;
+  background-color: #042331;
+  border-radius: 50%;
+  width: 40px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 15px;
+}

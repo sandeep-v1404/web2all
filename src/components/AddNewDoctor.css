@@ -1,0 +1,20 @@
+.employee__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.employee__NavLeft {
+  width: 80vw;
+}
+.employee__NavRight {
+  margin-right: 10px;
+}
+.employee__NavRight .MuiButton-root {
+  background-color: #042331;
+  color: white;
+  margin-top: 10px;
+  margin-right: 2px;
+}
+.employee__NavRight .MuiButton-root:hover {
+  background-color: #01447e;
+}

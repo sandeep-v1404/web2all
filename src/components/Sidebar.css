@@ -1,0 +1,93 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  background: #042331;
+  color: white;
+  align-items: center;
+  text-transform: uppercase;
+}
+.navbar__left {
+  display: flex;
+  margin-left: 10px;
+}
+.navbar__left > h3 {
+  margin-right: 150px;
+  cursor: pointer;
+}
+.navbar__left > h3 > span {
+  color: #0b87a6;
+}
+.navbar__right > button {
+  background: #19b3d3;
+  margin-right: 40px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar__right > button:hover {
+  background: #0b87a6;
+}
+
+.sidebar__left {
+  position: fixed;
+  top: 55px;
+  width: 250px;
+  height: 100%;
+  z-index: 1;
+
+  background: #1a1c20;
+  color: white;
+  transition: 0.3s ease-in;
+  transition-property: left;
+}
+.sidebar__left > p {
+  margin: 10px;
+}
+.sidebar__left > .sidebar__item {
+  width: 100%;
+  line-height: 50px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.sidebar__left > .sidebar__item:hover {
+  background: #042331;
+}
+.item__link > h4 {
+  margin-left: 15px;
+}
+.item__link {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.iconf {
+  cursor: pointer;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.icon1:hover {
+  color: gray;
+  cursor: pointer;
+}
+#check:checked ~ .sidebar__left h4 {
+  display: none;
+}
+#check:checked ~ .sidebar__left {
+  left: -190px;
+}
+#check:checked ~ .sidebar__left .icon {
+  margin-left: 190px;
+  width: 50px;
+}
+#check {
+  display: none;
+}

@@ -1,0 +1,75 @@
+.employees {
+  margin-top: 60px;
+  margin-left: 65px;
+  min-width: 500px;
+}
+.employees > h4 {
+  margin: 10px;
+}
+.breadcrumb {
+  margin-top: 10px;
+  padding: 10px 15px;
+  list-style: none;
+  background-color: #eee;
+  display: flex;
+}
+.breadcrumb li + li::before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+.breadcrumb__links {
+  color: #0275d8;
+}
+.breadcrumb__links:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.employee__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: gray;
+}
+.employee__card {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #042331;
+  margin: 10px;
+  background: #eee;
+}
+.employee__cardHeading {
+  background-color: #042331;
+  padding: 10px;
+  color: white;
+}
+.big {
+  width: 400px;
+}
+
+.employee__card .MuiButton-root {
+  background-color: #042331;
+  color: white;
+  margin-top: 5px;
+  margin-right: 2px;
+}
+.employee__card .MuiButton-root:hover {
+  background-color: #01447e;
+}
+.employee__card .employee__cardContent {
+  margin: 45px;
+  text-align: center;
+}
+.employee__cardContent > input {
+  display: none;
+}
+.employee__entryHeading {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px;
+}
+.employee__entryHeading > select {
+  margin-left: 10px;
+}

@@ -1,0 +1,9 @@
+.humanresources {
+  margin-top: 60px;
+  margin-left: 65px;
+  min-width: 500px;
+}
+
+.humanresources > h4 {
+  margin: 10px;
+}
